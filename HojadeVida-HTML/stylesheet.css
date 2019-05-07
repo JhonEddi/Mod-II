@@ -1,0 +1,201 @@
+CSS
+
+div {
+border-radius: 5px;
+}
+
+#encabezado {
+z-index: 1;
+position: fixed;
+background-color: #404040; 
+width: 99%;
+height: 60px;
+border: 2px dotted lightblue;
+font-family: Times;
+margin-top: -20px;
+margin-bottom: 10px;
+}
+
+#encabezado2 {
+z-index: 1;
+position: fixed;
+background-color: #0EA5E2;
+width: 97%;
+height: 60px;
+border: 2px dotted lightblue;
+font-family: Times;
+margin-top: -20px;
+margin-bottom: 10px;
+}
+
+#encabezado3 {
+z-index: 1;
+position: fixed;
+background-color: firebrick;
+width: 97%;
+height: 60px;
+border: 2px dotted lightblue;
+font-family: Times;
+margin-top: -20px;
+margin-bottom: 10px;
+}
+
+#encabezado4 {
+z-index: 1;
+position: relative;
+background-color: #DC3545;
+width: 100%;
+height: 78px;
+border: 2px dotted lightblue;
+font-family: Times;
+margin-top: -20px;
+margin-bottom: 10px;
+}
+
+.izquierda {
+float: left;
+background-color: #FC4242;
+width: 20%;
+height: 400px;
+margin-top: 55px;
+margin-bottom: 10px;
+border: 2px groove white;
+}
+
+.izquierda2 {
+float: left;
+background-color: #D2F8FE;
+width: 20%;
+height: 400px;
+margin-top: 55px;
+margin-bottom: 10px;
+border: 2px groove white;
+}
+
+.derecha {
+float: right;
+background-color: rgb(240, 240, 240);
+width: 79%;
+height: 400px;
+margin-top: 55px;
+margin-bottom: 10px;
+border: 2px groove white;
+}
+
+#pie {
+margin-top: 20px;
+margin-bottom: 10px;
+clear: both;
+background-color: #404040;
+width: 100%;
+height: 60px;
+border: 2px groove white;
+font-family: Caviar Dreams;
+}
+
+
+#pie2 {
+margin-top: 20px;
+margin-bottom: 10px;
+clear: both;
+background-color: #0EA5E2;
+width: 100%;
+height: 60px;
+border: 2px groove white;
+font-family: Caviar Dreams;
+}
+
+#email {
+float: right;
+text-decoration: none;
+color: white;
+margin: 10px;
+}
+
+#email:hover {
+font-weight: bold;
+color: gray;
+}
+
+#name {
+float: left;
+font-weight: bold;
+color: rgb(230, 230, 230);
+font-size: 1.5em;
+margin: 22px 10px 10px 10px;
+}
+
+#name:hover {
+color: #FC4242;
+}
+
+#name2 {
+float: left;
+font-weight: bold;
+color: rgb(230, 230, 230);
+font-size: 1.5em;
+margin: 22px 10px 10px 10px;
+}
+
+#name2:hover {
+color: #D2F8FE;
+}
+
+.content {
+margin: 10px;
+margin-left: 10px;
+}
+
+#direccion {
+text-align: center;
+color: #FC4242;
+}
+
+#direccion2 {
+text-align: center;
+color: #D2F8FE;
+}
+
+span:hover {
+color: #E6E6E6;
+font-weight: bold;
+}
+
+ol {
+list-style: none;
+margin: 20px 0 0 -20px;
+color: #404040;
+font-size: 1.1em;
+}
+
+a {
+text-decoration: none;
+color: #131313;
+border: 2px dotted lightblue;
+font-family: Caviar Dreams;
+font-size: 1.4em;
+font-weight: bold;
+}
+
+a:hover {
+font-weight: bold;
+color: #D65156;
+}
+a:active {
+color: darkred;
+}
+
+#margen-top {
+margin-top: 12px;
+}
+footer {
+    position: relative;
+    margin-top: 386px;
+    height: 55px;
+    padding:0px 0px;
+    clear: both;
+    background: #DC3545;
+    text-align: center;
+    color: #ffffff;
+}
+
